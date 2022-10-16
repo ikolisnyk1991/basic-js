@@ -18,7 +18,7 @@ const { NotImplementedError } = require('../extensions/index.js');
         this.arr = [];
         throw new Error('You can\'t remove incorrect link!');
     } else {
-        this.chain.splice(position - 1, 1);
+        this.arr.splice(position - 1, 1);
     }
     return this;
   },
